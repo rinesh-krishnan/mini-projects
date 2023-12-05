@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Play The Quiz</title>
+	<link rel="stylesheet" href="playQuiz.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Libre+Baskerville&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<!-- Counter & Score-->
+		<div class="board">
+			<div class="questCounter">
+				<h1 id="qcount">1/5</h1>
+				<span>Questions</span>
+			</div>
+			<div class="scoreCounter">
+				<h1 id="scount">0/50</h1>
+				<span>Score</span>
+			</div>
+		</div>
+
+		<!-- Question -->
+		<div class="questions">
+			<h2 id="quest">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa atque provident, nostrum at vero r.
+			</h2>
+		</div>
+
+		<!-- Options -->
+		<div class="options">
+			<div class="flex-row">
+				<span>A</span>
+				<p class="option paraHover" data-number="1">Program1</p>
+			</div>
+			<div class="flex-row">
+				<span>B</span>
+				<p class="option paraHover" data-number="2">Program2</p>
+			</div>
+			<div class="flex-row">
+				<span>C</span>
+				<p class="option paraHover" data-number="3">Program3</p>
+			</div>
+			<div class="flex-row">
+				<span>D</span>
+				<p class="option paraHover" data-number="4">Program4</p>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+<script src="./playQuiz.js"></script>
+
+</html>

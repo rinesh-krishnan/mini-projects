@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Kanit', sans-serif;
+}
+
+:root {
+	background-color: #2B3499;
+	font-size: 62.5%;
+	--custom-color-one: rgba(255, 255, 255, 0.441);
+	--custom-color-two: rgba(255, 255, 255, 0.217);
+}
+
+.container {
+	width: 60vh;
+	height: 60vh;
+	margin: 10rem auto;
+	padding: 1rem;
+	max-width: 80rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 5rem;
+	background-color: var(--custom-color-one);
+}
+
+.finalScore {
+	margin-bottom: 1.5rem;
+	display: flex;
+	justify-content: center;
+	font-size: 5rem;
+	font-weight: 600;
+	color: #2B3499;
+}
+
+.username {
+	margin: 1rem;
+	border: none;
+	width: 20rem; 
+	font-size: 1.5rem;
+	border-radius: 0.5rem;
+	padding: 0.55rem 1.5rem;
+}
+
+.username::placeholder {
+	color: #FF6C22;
+	text-align: center;
+}
+
+.username:focus {
+	box-shadow: 0.1rem 0.1rem 2rem #2B3499;
+	outline: #2B3499;
+}
+
+.Btn {
+	margin: 1rem 0;
+	width: 20rem;
+	font-size: 1.5rem;
+	border-radius: 0.5rem;
+	padding: 0.55rem 1.5rem;
+	border: none;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background-color: var(--custom-color-one)
+}
+
+.Btn:hover {
+	cursor: pointer;
+	color: #212121;
+	transform: translateY(-1.5px);
+	transition: 0.1s;
+}
